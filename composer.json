@@ -1,13 +1,18 @@
 {
-    "name": "patrickallaert/xhprof",
+    "name": "chrisdowson/xhprof",
     "description": "XHProf: A Hierarchical Profiler for PHP",
-    "keywords": ["profiling", "performance"],
-    "homepage": "http://pecl.php.net/package/xhprof",
-    "license": "Apache-2.0",
-    "require": {
-        "php": ">=7.0.0"
-    },
+    "license": "BSD-3-Clause",
     "autoload": {
-        "exclude-from-classmap": ["**"]
-    }
+        "psr-4": {
+            "Chrisdowson\\Xhprof\\": "xhprof_lib/utils/"
+        }
+    },
+    "authors": [
+        {
+            "name": "duanxiaoqiang",
+            "email": "chrisdowson@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
 }
